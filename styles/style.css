@@ -150,13 +150,11 @@ p {
 }
 .floors {
 	background-color: #f4f4f4;
+	padding-bottom: 30px;
 }
 .floorsblock {
 	margin: 0 auto;
     text-align: center;
-    width: 880px;
-    padding: 60px 60px;
-	max-width: 880px;
 	box-sizing: border-box;
 }
 
@@ -165,6 +163,12 @@ p {
 }
 .txtalignleft {
 	text-align: left;
+}
+.ffloor {
+	width: 880px;
+    padding: 60px 60px 0px 60px;
+	max-width: 880px;
+	margin: auto;
 }
 .ffloorimg {
     background-color: #f4f4f4;
@@ -187,12 +191,143 @@ p {
 }
 .floorsdesc {
 	display: inline-block;
-	padding-bottom: 30px;
+	/*padding-bottom: 30px;
+	width: 880px;
+	max-width: 880px;*/
+	margin: auto;
+	padding: 0px 60px 60px 60px;
 }
 .floorsheader {
 	font-size: 1.5em;
     letter-spacing: 3px;
     margin-bottom: 30px;
+}
+.ffgallery {
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.ffloorimg01 {
+	background-color: #646464;
+	background: url(../images/ffloor_01.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+	min-height: 205px;
+    margin: 5px;
+    display: inline-block;
+    min-width: 308px;
+    text-align: center;
+    vertical-align: middle;
+}
+.ffloorimg02 {
+	background-color: #646464;
+	background: url(../images/ffloor_02.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+	min-height: 205px;
+    margin: 5px;
+    display: inline-block;
+    min-width: 308px;
+    text-align: center;
+    vertical-align: middle;
+}
+.ffloorimg03 {
+	background-color: #646464;
+	background: url(../images/ffloor_03.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+	min-height: 205px;
+    margin: 5px;
+    display: inline-block;
+    min-width: 308px;
+    text-align: center;
+    vertical-align: middle;
+}
+.ffloorimg04 {
+	background-color: #646464;
+	background: url(../images/ffloor_04.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+	min-height: 205px;
+    margin: 5px;
+    display: inline-block;
+    min-width: 308px;
+    text-align: center;
+    vertical-align: middle;
+}
+.ffloorimg05 {
+	background-color: #646464;
+	background: url(../images/ffloor_05.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+	min-height: 205px;
+    margin: 5px;
+    display: inline-block;
+    min-width: 308px;
+    text-align: center;
+    vertical-align: middle;
+}
+.sfloorimg01 {
+	background-color: #646464;
+	background: url(../images/sfloor_01.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+	min-height: 205px;
+    margin: 5px;
+    display: inline-block;
+    min-width: 308px;
+    text-align: center;
+    vertical-align: middle;
+}
+.sfloorimg02 {
+	background-color: #646464;
+	background: url(../images/sfloor_02.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+	min-height: 205px;
+    margin: 5px;
+    display: inline-block;
+    min-width: 308px;
+    text-align: center;
+    vertical-align: middle;
+}
+.sfloorimg03 {
+	background-color: #646464;
+	background: url(../images/sfloor_03.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+	min-height: 205px;
+    margin: 5px;
+    display: inline-block;
+    min-width: 308px;
+    text-align: center;
+    vertical-align: middle;
+}
+.sfloorimg04 {
+	background-color: #646464;
+	background: url(../images/sfloor_04.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+	min-height: 205px;
+    margin: 5px;
+    display: inline-block;
+    min-width: 308px;
+    text-align: center;
+    vertical-align: middle;
+}
+.sfloorimg05 {
+	background-color: #646464;
+	background: url(../images/sfloor_05.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+	min-height: 205px;
+    margin: 5px;
+    display: inline-block;
+    min-width: 308px;
+    text-align: center;
+    vertical-align: middle;
 }
 .mainmenu>ul>a>li {
 	border: 3px solid #fff;
@@ -210,9 +345,14 @@ p {
     font-weight: 500;
     line-height: 1em;
 }
+.contactsmainmob {
+	display: none;
+}
 .sfloor {
-	margin-top: 30px;
-	/* height: 350px; */
+	width: 880px;
+    padding: 60px 60px;
+	max-width: 880px;
+	margin: auto;
 }
 .landdesc {
 	margin: 0 auto;
@@ -442,13 +582,22 @@ p {
 		padding-top: 130px;
 		padding-left: 130px;
 	}
+	.desc {
+		max-height: none;
+		background: none;
+		margin: 50px 0px 0px 0px;
+	}
+	.descimg {
+		margin: 20px auto;
+		width: 100%;
+	}
 }
 @media screen and (max-width: 1024px) {
 	.wd {
 		max-width: 1024px;
 	}
 	.backmain {
-		max-height: 520px;
+		background-position: 50%;
 	}
 	.maintextwb {
 		font-size: 1.5em;
@@ -463,5 +612,176 @@ p {
 	.mainmenu > ul > a > li {
 		border: 2px solid #fff;
 	
+	}
+	.ffloor {
+		width: 800px;
+		padding: 30px 30px 0px 30px;
+		max-width: 800px;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.floorsdesc {
+		padding: 0px 30px 30px 30px;
+	}
+	.sfloor {
+		width: 800px;
+		padding: 30px 30px 0px 30px;
+		max-width: 800px;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.sfloorimg {
+		margin-right: 0px;
+		margin-left: 50px;
+	}
+	.landdesc {
+		width: 90%;
+		padding: 20px;
+	}
+	.contactsblock {
+		width: 90%;
+		padding: 0px;
+	}
+	.marginb {
+		min-height: 200px;
+		margin: 5px;
+		height: auto;
+		width: auto;
+		min-width: 300px;
+	}
+}
+	@media screen and (max-width: 800px) {
+		.maintext {
+			padding: 75px 25px;
+		}
+		.ffloor {
+			width: unset;
+			max-width: 600px;
+			padding: 20px;
+		}
+		.sfloor {
+			width: unset;
+			max-width: 600px;
+			padding: 20px;
+			margin-bottom: 30px;
+		}
+		.desc {
+			margin: 20px 0px 0px 0px;
+		}
+		.desctext {
+			padding: 25px;
+		}
+		.floorsdesc {
+			padding: 0px;
+		}
+		.ffgallery {
+			padding: 0px;
+			margin-bottom: 50px;
+		}
+		.ffloorimg {
+			height: 250px;
+			display: inline-block;
+			padding: 0px;
+			width: 235px;
+		}
+		.sfloorimg {
+			height: 250px;
+			display: inline-block;
+			padding: 0px;
+			width: 235px;
+			margin-right: 50px;
+		}
+		
+	}
+	@media screen and (max-width: 598px) {
+		.ffloor {
+			width: 100%;
+			max-width: 600px;
+			padding: 20px;
+			text-align: center;
+			margin: auto;
+		}
+		.floorsdesc {
+			text-align: left;
+    		margin-bottom: 20px;
+		}
+		.ffloorimg {
+			width: 300px;
+			margin: auto;
+			float: none;
+		}
+		.sfloor {
+			text-align: center;
+			margin-bottom: 0;
+		}
+		.sfloorimg {
+			height: 250px;
+			display: block;
+			width: 300px;
+			margin: auto;
+			float: none;
+			margin-bottom: 30px;
+		}
+	}
+	@media screen and (max-width: 533px) {
+		li {
+			padding: 7px;
+		}
+		a:-webkit-any-link {
+			color: #0e0e0e;
+		}
+		.backmain {
+			background: url(../images/mainbackmid.jpg);
+			height: 100vh;
+			background-size: cover;
+			background-repeat: no-repeat;
+			position: relative;
+		}
+		.maintextwb {
+			font-size: 1.3em;
+			margin-bottom: 30px;
+			color: #000;
+		}
+		.contactstext {
+			margin-bottom: 50px;
+		}
+		.maintext {
+			padding: 35px 25px;
+		}
+		.mainmenu>ul>a>li  {
+			width: unset;
+			display: block;
+			text-align: center;
+			display: inline-block;
+			border: 2px solid #000;
+		}
+		.contactsmain {
+		display: none;
+		}
+		.contactsmainmob {
+			display: inline-block;
+			bottom: 0;
+			width: 100%;
+			background-color: #ffffffd1;
+			color: #000;
+			position: absolute;
+			text-align: center;
+		}
+	}
+	@media screen and (max-width: 414px) {
+		.backmain {
+			max-height: 690px;
+		}
+	}
+	@media screen and (max-width: 360px) {
+		.maintext {
+			padding: 25px;
+		}
+		.maintextwb {
+			margin-bottom: 7px;
+		}
+		.mainmenu>ul>a>li {
+			padding: 10px;
+		}
 	}
 }
